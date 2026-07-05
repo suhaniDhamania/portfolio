@@ -70,7 +70,6 @@ export default function Terminal() {
         newHistory.push({ text: `Email:     ${import.meta.env.VITE_CONTACT_EMAIL || 'suhanidhamania157@gmail.com'}`, type: 'text' });
         newHistory.push({ text: `Phone:     ${import.meta.env.VITE_CONTACT_PHONE || '+91 8851648618'}`, type: 'text' });
         newHistory.push({ text: `LinkedIn:  ${import.meta.env.VITE_CONTACT_LINKEDIN || 'https://linkedin.com/in/suhanidhamania'}`, type: 'link' });
-        newHistory.push({ text: `Portfolio: ${import.meta.env.VITE_CONTACT_PORTFOLIO || 'https://suhaniportfolio.onrender.com/'}`, type: 'link' });
         break;
 
       default:
