@@ -129,7 +129,7 @@ export default function Hero() {
               View My Work
             </a>
             <a
-              href="/resume.pdf"
+              href="/RESUME.pdf"
               download="Suhani_Dhamania_Resume.pdf"
               className="interactive-node"
               style={{
