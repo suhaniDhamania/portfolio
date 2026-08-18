@@ -7,7 +7,7 @@ export default function Terminal() {
     { text: '', type: 'spacer' }
   ]);
   const [input, setInput] = useState('');
-  const terminalEndRef = useRef(null);
+  const terminalContainerRef = useRef(null);
 
   const commands = {
     help: 'List all available terminal commands.',
@@ -92,11 +92,14 @@ export default function Terminal() {
   };
 
   useEffect(() => {
-    terminalEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+    if (terminalContainerRef.current) {
+      terminalContainerRef.current.scrollTop = terminalContainerRef.current.scrollHeight;
+    }
   }, [history]);
 
   return (
     <div
+      ref={terminalContainerRef}
       className="neon-border"
       style={{
         background: '#0c0d12',
@@ -144,7 +147,6 @@ export default function Terminal() {
             </div>
           );
         })}
-        <div ref={terminalEndRef} />
       </div>
 
       <div style={{ display: 'flex', alignItems: 'center', marginTop: '10px' }}>
