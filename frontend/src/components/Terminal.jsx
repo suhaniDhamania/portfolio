@@ -50,11 +50,11 @@ export default function Terminal() {
 
       case 'skills':
         newHistory.push({ text: '--- FRONTEND ---', type: 'header' });
-        newHistory.push({ text: 'React.js, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS, Bootstrap, Responsive Web Design', type: 'text' });
+        newHistory.push({ text: 'React.js (React 19), Vite, GSAP, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS, Bootstrap, Responsive Web Design', type: 'text' });
         newHistory.push({ text: '--- BACKEND & DB ---', type: 'header' });
-        newHistory.push({ text: 'Node.js, Express.js, REST APIs, MongoDB, PostgreSQL, SQL, Mongoose, JWT Auth', type: 'text' });
+        newHistory.push({ text: 'Node.js, Express.js, REST APIs, MongoDB, PostgreSQL, SQL, Mongoose, Nodemailer, JWT Auth', type: 'text' });
         newHistory.push({ text: '--- SPECIALIZED & CONCEPTS ---', type: 'header' });
-        newHistory.push({ text: 'Healthcare Tech (DICOM, Orthanc PACS, AI-Assisted Reports), RBAC, APIs, State Management', type: 'text' });
+        newHistory.push({ text: 'Healthcare Tech (DICOM, Orthanc PACS, AI-Assisted Reports), RBAC, APIs, SCM & E-Commerce, State Management', type: 'text' });
         break;
 
       case 'projects':
@@ -64,6 +64,10 @@ export default function Terminal() {
         newHistory.push({ text: '   React/Node workflows with PostgreSQL and AI-powered report generation from medical images.', type: 'text' });
         newHistory.push({ text: '3. Blood Donation & Inventory Platform', type: 'header' });
         newHistory.push({ text: '   Full-stack blood portal, donation screening, real-time inventory alerts, JWT auth & Nodemailer OTP.', type: 'text' });
+        newHistory.push({ text: '4. E-Commerce Platform', type: 'header' });
+        newHistory.push({ text: '   D2C dairy e-commerce & SCM platform with order status tracking, catalog management, and admin dashboard.', type: 'text' });
+        newHistory.push({ text: '5. Enterprise IT Solutions & HealthTech Web Portal', type: 'header' });
+        newHistory.push({ text: '   React 19, Vite, and GSAP web app for 15+ enterprise products, backed by Node.js, Express, and Nodemailer.', type: 'text' });
         break;
 
       case 'contact':

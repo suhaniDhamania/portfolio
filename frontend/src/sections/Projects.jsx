@@ -37,6 +37,28 @@ export default function Projects() {
       ],
       tags: ["MERN Stack", "JWT Auth", "Nodemailer", "OTP Verification", "Real-time Alerts"],
       glowColor: "var(--success)"
+    },
+    {
+      title: "E-Commerce Platform",
+      category: "D2C E-Commerce / SCM",
+      description: "Built an e-commerce and supply chain management (SCM) platform for selling dairy products directly to consumers (D2C), with product search, a cart, and checkout.",
+      highlights: [
+        "Orders move from Pending to Confirmed to Delivered, and customers can check their order status using their phone number.",
+        "Built an admin dashboard that shows real-time business metrics and order audit logs, manages the product catalog (pricing, units, and images), and handles order approval and rejection, with a reason required for each decision."
+      ],
+      tags: ["React.js", "Node.js", "Express.js", "SCM", "D2C", "Order Tracking", "Admin Dashboard"],
+      glowColor: "#f59e0b"
+    },
+    {
+      title: "Enterprise IT Solutions & HealthTech Web Portal",
+      category: "Enterprise Web / HealthTech",
+      description: "Developed a high-performance, responsive web application using React 19, Vite, and GSAP, implementing smooth micro-animations, an interactive project roadmap, and dynamic routing for 15+ enterprise products.",
+      highlights: [
+        "Developed a high-performance, responsive web application using React 19, Vite, and GSAP, implementing smooth micro-animations, an interactive project roadmap, and dynamic routing for 15+ enterprise products.",
+        "Engineered a Node.js & Express.js REST backend with Nodemailer integration to securely handle client communications and real-time contact form inquiries with robust error handling."
+      ],
+      tags: ["React 19", "Vite", "GSAP", "Node.js", "Express.js", "Nodemailer", "REST Backend"],
+      glowColor: "var(--accent-primary)"
     }
   ];
 

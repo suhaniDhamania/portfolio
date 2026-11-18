@@ -4,11 +4,11 @@ export default function About() {
   const categories = [
     {
       title: "Frontend Stack",
-      skills: ["React.js", "JavaScript (ES6+)", "HTML5 / CSS3", "Tailwind CSS", "Bootstrap", "Responsive Web Design"]
+      skills: ["React.js (React 19)", "JavaScript (ES6+)", "Vite", "GSAP Animations", "HTML5 / CSS3", "Tailwind CSS", "Bootstrap", "Responsive Web Design"]
     },
     {
       title: "Backend & Systems",
-      skills: ["Node.js", "Express.js", "REST APIs", "JWT Auth", "Middleware Integration", "API Rate Limiting"]
+      skills: ["Node.js", "Express.js", "REST APIs", "JWT Auth", "Nodemailer", "Middleware Integration", "API Rate Limiting"]
     },
     {
       title: "Database Layer",

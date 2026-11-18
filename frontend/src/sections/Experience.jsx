@@ -5,11 +5,13 @@ export default function Experience() {
     {
       role: "Software Developer",
       company: "Subharti University",
-      period: "2025 – Present",
+      period: " jun 2025 – Nov 2026",
       location: "Meerut / Noida, India",
       details: [
         "Architecting full-stack solutions for university medical centers and healthcare departments.",
         "Developing web tools to streamline clinical work and radiology tasks (DICOM/PACS viewer integration).",
+        "Built a D2C E-Commerce & SCM platform with phone-number order tracking and real-time admin metrics dashboard.",
+        "Engineered an Enterprise IT & HealthTech portal using React 19, GSAP animations, dynamic routing, and Node/Nodemailer backend.",
         "Configuring security layers (RBAC, JWT, OTP email verification) across student and patient portals."
       ]
     },
@@ -19,7 +21,8 @@ export default function Experience() {
       period: "2023 – Present",
       location: "Remote",
       details: [
-        "Built and deployed a full-featured Clinic Appointment Booking System using React, Node.js, Express, and MongoDB."
+        "Built and deployed a full-featured Clinic Appointment Booking System using React, Node.js, Express, and MongoDB.",
+        "Built and deployed a full-featured supply chain management System using React, Node.js, Express, and MongoDB."
       ]
     }
   ];
